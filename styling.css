@@ -1,0 +1,63 @@
+#CompanyName
+{
+    animation: hilao 20s linear infinite;   
+}
+#im1{
+    width:100%;
+
+}
+.sub{
+    color:grey
+}
+body{
+    color:white;
+    background-image: url("bgi4.png");
+   animation: moveBackground 20s linear infinite;
+
+}
+button{
+    padding: 20px;
+    margin:20px;
+    background-color: gray;
+    border-bottom: 10px solid;
+    border-right: 10px solid;
+    border-color: rgb(80, 75, 117);
+    border-radius: 20px;
+    box-shadow: 0px 15px 15px 0px rgb(45, 43, 60);
+}
+button:hover{
+    
+    padding: 30px;
+    margin:20px;
+    background-color: rgb(42, 31, 51);
+    border-bottom: 10px solid;
+    border-right: 10px solid;
+    border-color: rgb(45, 43, 60);
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px 0px rgb(45, 43, 60);
+
+}
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 30% 0%;
+    }
+    100% {
+        background-position: 0% 60%;
+    }
+}
+
+      
+      @keyframes hilao {
+          0% {
+              transform: translateX(0);
+            }
+            100%{
+              transform: translateX(1500px);
+            }
+          
+      }
+      
+     
